@@ -10,7 +10,7 @@ client.on('error', function(e) {
 })
 
 router.get('/', function(req, res, next) {
-  res.send('This is index page.');
+  res.send('This is index page');
 });
 
 router.get(/^(.*)$/, function(req, res, next) {

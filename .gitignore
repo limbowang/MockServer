@@ -28,3 +28,5 @@ node_modules
 
 # protect data
 data/
+public/javascripts
+public/stylesheets
